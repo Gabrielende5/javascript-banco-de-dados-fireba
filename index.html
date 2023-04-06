@@ -8,9 +8,11 @@
 </head>
 <body>
     <label for="name">Nome: </label><br>
-    <input type="text" name="name"><br>
-    <label for="email">Nome: </label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email: </label><br>
     <input type="email" id="email" name="email"><br>
-    <button>Cadastrar</button>
+    <button onclick="sendData()">Cadastrar</button>
+
+    <script src="./scripts/post.js"></script>
 </body>
 </html>
